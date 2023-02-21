@@ -1,5 +1,5 @@
 pkg install nodejs
-pkg install npm
 npm install axios
 npm install fake-useragent
 npm install https-proxy-agent
+chmod +x *
