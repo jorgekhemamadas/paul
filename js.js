@@ -103,7 +103,7 @@ function time(){
 
 async function th(){
   if (cluster.isMaster){
-    for (let u=0;u<1;u++){
+    for (let u=0;u<10;u++){
       cluster.fork()
 
     }
